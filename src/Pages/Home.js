@@ -9,7 +9,7 @@ function Home() {
 
     return( <div className="home">  
     <div className="about">
-
+        
         <h1> <Typed
             strings={["HI THERE! I’M ADHITYA","I'm a growing and passionate CSS student","I am interested in software development and enjoying creating websites"]}
             typeSpeed = {30}
@@ -26,23 +26,10 @@ function Home() {
         <p> I am a Middle schooler from Basking Ridge, New Jersey. I am an enthusiastic, young engineer, artist and a future entrepreneur. I love spending time in solving complex math problems, playing the online chess games, creating wonderful works of art, and guiding my robotics team as a team captain. </p>
     
     <div className="prompt">
-        <Link to = "/footer">  <ForwardToInboxIcon/> </Link>
+        <Link to = "/Footer">  <ForwardToInboxIcon/> </Link>
         <YouTubeIcon/>
         </div>
     </div>    
-        
-
-        <div className="skills">
-        <h1> SKILLSET </h1>
-        <ul className="list">
-            <li className="item"> <h2>Programming</h2> <span>PROGRAMMING IN JAVA, HTML, CSS, JAVASCRIPT, SPRINGBOOT, AND SQL</span></li>
-            <li className="item"> <h2>Robotics</h2> <span>DESIGNING AND BUILDING INNOVATIVE ROBOTS</span></li>
-            <li className="item"> <h2>Youtube</h2> <span>CREATING YOUTUBE EDUCATIONAL VIDEOS</span></li>
-            <li className="item"> <h2>Tutoring</h2> <span>TUTORING AND MENTORING KIDS FOR SCHOOL AND STEM ACTIVITIES</span></li>
-            </ul>
-        </div>
-        
-            <Cadetlife/>
 
         </div>);
 

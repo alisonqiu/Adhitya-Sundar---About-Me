@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/Navbar.css'; 
-import {Link} from 'react-scroll';
+import {Link} from 'react-router-dom';
 
     function Navbar() {
 
@@ -11,13 +11,20 @@ import {Link} from 'react-scroll';
                 <Link to='/home'>
                     Home
                 </Link>
-                <Link to= {'cadetlife'} 
-                activeClass = "active"
-                spy = {true}
-                smooth = {true}
-                duration = {500}
-                >
-                cadetlife
+                <Link to= '/cadetlife'>
+                Cadetlife
+                </Link>
+                <Link to= '/skillset'>
+                    Skillset
+                </Link>
+                <Link to= '/ftc'>
+                    FTC
+                </Link>
+                <Link to= '/volunteering'>
+                    Volunteering
+                </Link>
+                <Link to= '/achievements'>
+                    Achievements
                 </Link>
                 
              

@@ -1,13 +1,26 @@
 import React from "react";
-import "../Styles/Navbar.css";
+import "../Styles/Footer.css";
+import {Link} from 'react-router-dom';
 
 function Footer() {
 
-    return(<div className="footer">
+    return(<div className="Footer">
         
         <p> AdhityaSundar@gmail.com </p>
 
+        <Link to= {'cadetlife'} 
+                activeClass = "active"
+                spy = {true}
+                smooth = {true}
+                duration = {500}
+                >
+                cadetlife
+                </Link>
+
+                
+
     </div>)
+
 
 }
 
