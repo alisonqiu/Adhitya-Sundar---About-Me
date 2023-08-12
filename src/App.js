@@ -27,7 +27,7 @@ import Achievements from './Pages/Achievements';
        
 
       <Routes>
-        <Route path = '/Adhitya-Sundar---About-Me' element={<Home />} />
+        <Route exact path = '/Adhitya-Sundar---About-Me' element={<Home />} />
         <Route path = '/home' element={<Home />} />
         <Route path = '/skillset' element={<Skillset />} /> 
         <Route path = '/cadetlife' element={<Cadetlife />} /> 
