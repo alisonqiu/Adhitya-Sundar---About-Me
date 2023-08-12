@@ -19,7 +19,7 @@ import Achievements from './Pages/Achievements';
     return (
       <div className="App">
 
-      <Router>
+      <Router basename= "/Adhitya-Sundar---About-Me">
         
       <div style={{zIndex:1000}}>
       < Navbar/>
@@ -27,7 +27,7 @@ import Achievements from './Pages/Achievements';
        
 
       <Routes>
-        <Route path = '/' element={<Home />} />
+        <Route path = '/Adhitya-Sundar---About-Me' element={<Home />} />
         <Route path = '/home' element={<Home />} />
         <Route path = '/skillset' element={<Skillset />} /> 
         <Route path = '/cadetlife' element={<Cadetlife />} /> 
